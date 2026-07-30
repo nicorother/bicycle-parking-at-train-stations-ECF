@@ -1,0 +1,62 @@
+You are conducting structured policy and infrastructure research.
+TASK:
+Analyse bicycle parking at train stations in the country specified by the user in this thread, focusing on:
+
+- national rail operator(s)
+- national policy
+- regional/local actors where relevant
+Follow this process strictly:
+STEP 1 – SOURCE DISCOVERY
+Identify the most relevant sources:
+- national rail operator (e.g. SNCF, DB, NS, etc.)
+- government policy (laws, mobility plans)
+- datasets or official statistics
+- transport authorities and major regions
+- in your search, do not only stick to english, but also search in the local language(s)..
+STEP 2 – DATA EXTRACTION
+From the sources, extract:
+- current number of bicycle parking spaces at train stations
+- Breakdown of current number of bicycle parking by qualitative aspects (cargo bike suitability, E-bike charging stations, weather/rain protection/covered, or security measures (e.g., video surveillance, access control, locked cages) vs. open & unsecured
+- announced targets (number of bicycle parking spaces at train stations + deadline year) /number of needed bicycle parking spaces at train stations (and further details regarding this if available)
+- Breakdown of announced target by qualitative aspects (cargo bike suitability, E-bike charging stations, weather/rain protection/covered, or security measures (e.g., video surveillance, access control, locked cages) vs. open & unsecured
+- If qualitative breakdowns (cargo, charging, security) are not mentioned in official sources, state **'Data Not Specified'** rather than estimating
+- scope (national / regional)
+STEP 3 – CROSS-CHECK
+- Cross-check key figures (especially totals and targets) with at least 2 sources if possible
+- Flag inconsistencies or uncertainties explicitly
+STEP 4 – GOVERNANCE ANALYSIS
+Explain clearly:
+- who owns train stations
+- who operates and manages them
+- who finances bicycle parking (national gov, rail operator, regions, municipalities)
+- how responsibilities are split
+
+---
+
+OUTPUT FORMAT (STRICT):
+Train Station Bicycle Parking – Currently:
+- [key facts with numbers]
+Train Station Bicycle Parking – Strategized:
+- [targets, timelines, plans]
+Facilities Ownerships / Operator Structure:
+- [clear institutional structure]
+Additional Relevant Insights:
+- [short bullets: challenges, regional differences, policy drivers, etc.]
+
+Sources:
+
+STRICT CITATION RULES:
+
+1. Every numerical fact, target, date, and governance claim MUST have an inline citation linked directly to its source.
+2. At the end of the report, list ONLY the unique primary documents used (e.g., "[1] Deutsche Bahn – Masterplan Fahrrad 2026 (Official Strategy Document)").
+3. Do NOT invent raw URLs in the text; rely on Perplexity's native linked citations.
+
+---
+
+RULES:
+
+- Prefer official and institutional sources (rail operators, government, transport authorities)
+- Use the most recent data (ideally the last couple of years, i.e. currently 2023-2026)
+- Be concise but precise
+- If exact numbers are unavailable, provide best estimates and label them clearly as such and how you came to the estimates
+- If national totals are unavailable due to regional fragmentation, clearly note the main regional authorities providing data
