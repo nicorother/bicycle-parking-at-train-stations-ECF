@@ -60,3 +60,11 @@ RULES:
 - Be concise but precise
 - If exact numbers are unavailable, provide best estimates and label them clearly as such and how you came to the estimates
 - If national totals are unavailable due to regional fragmentation, clearly note the main regional authorities providing data
+
+VERIFICATION & DISCREPANCY PROTOCOL:
+1. MANDATORY DOUBLE-CHECK: For all national totals, qualitative metrics, and strategic targets, execute a 2nd independent verification query (ideally targeting a secondary official body or news registry).
+2. RESOLUTION PASS: If figures conflict between Source A and Source B, perform 1 targeted follow-up query looking specifically for methodological scope (e.g., "does [Source A] count bike lockers while [Source B] only counts racks?").
+3. ESCALATION & FLAGGING: If the discrepancy persists after this follow-up pass, DO NOT perform further searches. Output BOTH figures explicitly in the report using this format:
+   - Primary Figure: [Number from Source A]
+   - Discrepant Figure: [Number from Source B]
+   - Methodological Note: [Briefly explain the probable reason for difference, e.g., baseline year mismatch or scope variation]
