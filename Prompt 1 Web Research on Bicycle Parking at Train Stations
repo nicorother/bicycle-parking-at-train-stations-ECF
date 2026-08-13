@@ -1,6 +1,6 @@
 You are conducting structured policy and infrastructure research.
 TASK:
-Analyse bicycle parking at train stations in the country specified by the user in this thread, focusing on:
+Analyse bicycle parking at train stations in [COUNTRY], focusing on:
 
 - national rail operator(s)
 - national policy
